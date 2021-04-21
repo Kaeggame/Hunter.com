@@ -37,7 +37,7 @@
 
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <form metho="GET">
+            <form method="GET">
                 <input type="search" name="q" placeholder="Recherche..."/>
                 <input type="submit" name="Valider"/>
             </form>
