@@ -1,0 +1,39 @@
+
+/* CSS du header */
+
+header
+{
+    background: linear-gradient(37.46deg, #494949 34.6%, #397C7C 37%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    height: 50px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+nav /* le menu de navigations */
+{
+    background-color: #494949;
+    margin: auto;
+    width: 70%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+ul /* c'est les menus */
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.rec /* c'est pour la "barre de recherche, on la changera plus tard */
+{
+    height: 40px;
+}
+
+.logo
+{
+    height: 40px;
+}

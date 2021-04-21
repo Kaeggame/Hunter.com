@@ -1,0 +1,35 @@
+
+/* CSS du footer */
+
+.footer
+{
+    display: flex;
+    background-color: rgba(158, 77, 215, 0.25);
+}
+
+.footer1
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    font-family: "Rockwell",serif;
+    color: white;
+}
+
+.footer2
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    font-family: "Rockwell",serif;
+    color: white;
+}
+
+.footer3
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    font-family: "Rockwell",serif;
+    color: white;
+}

@@ -1,0 +1,22 @@
+
+/* CSS Principal */
+
+body /* pour l'instant, juste l'image de fond */
+{
+    margin: 0px;
+    background-color: darkolivegreen; /* à changer pour l'image */
+}
+
+section /* le contenu principal */
+{
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    height: 1000px;
+}
+
+
+.mainblock /* pour enlever les marge entre les block */
+{
+margin-top: 0;
+}
