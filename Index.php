@@ -37,7 +37,10 @@
 
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <p class="mainblock">rien</p>
+            <form metho="GET">
+                <input type="search" name="q" placeholder="Recherche..."/>
+                <input type="submit" name="Valider"/>
+            </form>
         </section>
 
         <!-- Le footer...juste le footer -->
