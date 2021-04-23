@@ -28,10 +28,19 @@ ul /* c'est les menus */
     margin: 0;
 }
 
-.rec /* c'est pour la "barre de recherche, on la changera plus tard */
+
+/* Les deux éléments de la barre de recherche */
+.envoyer /* Le bouton "envoyer" */
 {
     height: 40px;
 }
+
+.recherche /* La barre de recherche */
+{
+    width: 400px;
+    height: 40px;
+}
+
 
 .logo
 {
