@@ -1,4 +1,4 @@
-<!-- Page principal -->
+<!-- Page produit -->
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/header.css">
 
         <meta charset="UTF-8">
-        <title>Hunter.fr</title>
+        <title>Hunter.fr_Page Produit_</title>
     </head>
 
     <body>
@@ -44,7 +44,7 @@
 
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <p class="mainblock">toujours rien, <a href="produit.php">Boufon</a> !</p>
+            <p class="mainblock">Bonjour, Boufon, ceci est notre seul produit... une vie (trop chère pour vous) !</p>
         </section>
 
         <!-- Le footer...juste le footer -->

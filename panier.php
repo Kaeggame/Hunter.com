@@ -1,4 +1,4 @@
-<!-- Page principal -->
+<!-- Page panier -->
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/header.css">
 
         <meta charset="UTF-8">
-        <title>Hunter.fr</title>
+        <title>Hunter.fr_Votre Panier_</title>
     </head>
 
     <body>
@@ -32,7 +32,7 @@
 
         </header>
 
-        <!-- Le menu de navigations, qui apparaitra quand on cllique sur le bouton -->
+        <!-- Le menu de navigations, qui apparaitra quand on clique sur le bouton -->
         <nav class="mainblock">
             <ul class="mainblock">
                 <li>PC</li>
@@ -44,7 +44,7 @@
 
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <p class="mainblock">toujours rien, <a href="produit.php">Boufon</a> !</p>
+            <p class="mainblock">Bonjour, Boufon, ceci est votre panier... une vie (trop chère pour vous) !</p>
         </section>
 
         <!-- Le footer...juste le footer -->
