@@ -18,7 +18,12 @@
         <header class="mainblock">
             <ul class="mainblock">
                 <li><img class="logo" src="images/hunterlogo.png"></li>
-                <li><img class="rec" src="images/Rectangle%20130.png" alt="un 'rectangle' vraiment dégueulasse"></li>
+                <li>
+                    <form method="GET">
+                        <input class="recherche" type="search" name="q" placeholder="Recherche..."/>
+                        <input class="envoyer" type="submit" name="Valider" />
+                    </form>
+                </li>
                 <li>E</li>
                 <li><img src="images/hunterbasket.png" alt="un panier commercial"></li>
                 <li><img src="images/hunterprofil.png" alt="une icône de profil"></li>
@@ -37,10 +42,7 @@
 
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <form method="GET">
-                <input type="search" name="q" placeholder="Recherche..."/>
-                <input type="submit" name="Valider"/>
-            </form>
+            <p>toujours rien !</p>
         </section>
 
         <!-- Le footer...juste le footer -->

@@ -30,8 +30,10 @@ ul /* c'est les menus */
 
 .rec /* c'est pour la "barre de recherche, on la changera plus tard */
 {
+    width: 400px;
     height: 40px;
 }
+
 
 .logo
 {
