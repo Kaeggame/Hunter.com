@@ -28,6 +28,7 @@ ul /* c'est les menus */
 /* Les deux éléments de la barre de recherche */
 .envoyer /* Le bouton "envoyer" */
 {
+    width: 400px;
     height: 40px;
 }
 
