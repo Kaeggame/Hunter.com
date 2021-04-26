@@ -15,8 +15,7 @@ section /* le contenu principal */
     height: 1000px;
 }
 
-
-.mainblock /* pour enlever les marge entre les block */
+.mainblock,.navi /* pour enlever les marge entre les block */
 {
-margin-top: 0;
+    margin-top: 0;
 }
