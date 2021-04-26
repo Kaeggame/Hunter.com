@@ -28,7 +28,7 @@ ul /* c'est les menus */
 /* Les deux éléments de la barre de recherche */
 .envoyer /* Le bouton "envoyer" */
 {
-    width: 400px;
+    width: 100px;
     height: 40px;
 }
 
@@ -53,7 +53,7 @@ nav /* le menu de navigations */
 {
     background-color: red;
     border: 1px black solid;
-    width: 300px;
+    width: 25%;
     height: 25px;
     border-radius: 0 0 24px 24px;
     text-align: center;
@@ -64,7 +64,7 @@ nav /* le menu de navigations */
 {
     background-color: blue;
     border: 1px black solid;
-    width: 300px;
+    width: 25%;
     height: 25px;
     border-radius: 0 0 24px 24px;
     text-align: center;
@@ -75,7 +75,7 @@ nav /* le menu de navigations */
 {
     background-color: green;
     border: 1px black solid;
-    width: 300px;
+    width: 25%;
     height: 25px;
     border-radius: 0 0 24px 24px;
     text-align: center;
@@ -86,7 +86,7 @@ nav /* le menu de navigations */
 {
     background-color: white;
     border: 1px black solid;
-    width: 300px;
+    width: 25%;
     height: 25px;
     border-radius: 0 0 24px 24px;
     text-align: center;
