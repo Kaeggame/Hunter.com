@@ -42,6 +42,7 @@
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
             <p class="mainblock">toujours rien, <a href="produit.php">Boufon</a> !</p>
+            <p>Hey, approche, j'ai un truc à te dire ! <a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Ecoutes</a> !</p>
         </section>
 
 
