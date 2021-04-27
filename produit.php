@@ -33,10 +33,10 @@
 
         <!-- Le menu de navigations -->
         <nav>
-            <div class="PC">PC</div>
-            <div class="Sony">Playstation</div>
-            <div class="Microsoft">Xbox</div>
-            <div class="Nintendo">Nintendo</div>
+            <div class="PC"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">PC</a></div>
+            <div class="Sony"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Playstation</a></div>
+            <div class="Microsoft"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Xbox</a></div>
+            <div class="Nintendo"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Nintendo</a></div>
         </nav>
 
         <!-- Le contenu principal de la page -->
