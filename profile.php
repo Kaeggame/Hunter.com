@@ -1,4 +1,4 @@
-<!-- Page principal -->
+<!-- Page profil -->
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/header.css">
 
         <meta charset="UTF-8">
-        <title>Hunter.fr</title>
+        <title>Hunter.fr_Votre Profil_</title>
     </head>
 
     <body>
@@ -39,9 +39,10 @@
             <div class="Nintendo"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Nintendo</a></div>
         </nav>
 
+
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <p class="mainblock">toujours rien, <a href="produit.php">Boufon</a> !</p>
+            <p class="mainblock">Bonjour, Boufon, ceci est votre profil... aussi rempli que votre vie !</p>
         </section>
 
 
