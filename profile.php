@@ -39,12 +39,10 @@
             <div class="Nintendo"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Nintendo</a></div>
         </nav>
 
-
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
             <p class="mainblock">Bonjour, Boufon, ceci est votre profil... aussi rempli que votre vie !</p>
         </section>
-
 
         <!-- Le footer...juste le footer -->
         <footer>
