@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mar. 18 mai 2021 à 13:04
+-- Généré le : mar. 18 mai 2021 à 15:13
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `jeux` (
   `prix` float DEFAULT NULL,
   `img` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`idj`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=41 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `jeux`
@@ -43,7 +43,44 @@ CREATE TABLE IF NOT EXISTS `jeux` (
 INSERT INTO `jeux` (`idj`, `nomj`, `prix`, `img`) VALUES
 (1, 'The Elder Pong', 159.99, ''),
 (2, 'TrackMania', 9.99, ''),
-(3, 'Metroid Prime', 59.99, '');
+(3, 'Metroid Prime', 59.99, ''),
+(4, 'Monster Hunter World', 39.99, ''),
+(5, 'Monster Hunter Rise', 39.99, ''),
+(6, 'Biomutant', 79.99, ''),
+(7, 'Days Gone', 29.99, ''),
+(8, 'F1 2021', 29.99, ''),
+(9, 'NieR Replicant', 59.99, ''),
+(10, 'Cyberpunk 2077', 59.99, ''),
+(11, 'Minecraft', 24.99, ''),
+(12, 'Grand Theft Auto V', 59.99, ''),
+(13, 'Sea Of Thieves', 59.99, ''),
+(14, 'FIFA 21', 59.99, ''),
+(15, 'Les Sims 4', 59.99, ''),
+(16, 'Battlefield V', 69.99, ''),
+(17, 'Battlefield 4', 69.99, ''),
+(18, 'Battlefield 3', 49.99, ''),
+(19, 'Battlefield Bad Company 2', 59.99, ''),
+(20, 'Dark Souls 3', 59.99, ''),
+(21, 'Dark Souls 2', 29.99, ''),
+(22, 'Dark Souls 1', 9.99, ''),
+(23, 'No Man\'s Sky', 59.99, ''),
+(24, 'Overwatch', 19.99, ''),
+(25, 'Escape From Tarkov', 59.99, ''),
+(26, 'Payday 2', 59.99, ''),
+(27, 'Farming Simulator 19', 59.99, ''),
+(28, 'The Crew 2', 23.99, ''),
+(29, 'Wreakfest', 47.99, ''),
+(30, 'Dying Light', 39.99, ''),
+(31, 'Alien Isolation', 59.99, ''),
+(32, 'Hell Let Loose', 15.49, ''),
+(33, 'Civilization IV', 39.99, ''),
+(34, 'Conan Exiles', 1.99, ''),
+(35, 'Planet Zoo', 59.99, ''),
+(36, 'Dead Cells', 29.99, ''),
+(37, 'Slay The Spire', 49.99, ''),
+(38, 'Human Fall Flat', 9.99, ''),
+(39, 'Titanfall 2', 25.99, ''),
+(40, 'Worms W.M.D', 14.99, '');
 
 -- --------------------------------------------------------
 
