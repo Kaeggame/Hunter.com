@@ -1,0 +1,52 @@
+/* CSS de la connexion*/
+
+.connexBloc /* C'est le bloc qui contient tous les éléments */
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #397C7C;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.connexDescrip /* Le texte avant les info à renter */
+{
+    text-align: center;
+    height: 20px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+
+/* Le Mail */
+#mail
+{
+    border: 1px solid black;
+    background-color: white;
+    height: 20px;
+    width: 350px;
+}
+
+/* Partie Mot de passe */
+#mdp
+{
+    border: 1px solid black;
+    background-color: white;
+    height: 20px;
+    width: 350px;
+}
+
+
+/* La validation */
+.connexValid
+{
+    height: 20px;
+    width: 100px;
+    margin-top: 20px;
+}

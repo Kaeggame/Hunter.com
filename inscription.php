@@ -29,7 +29,7 @@
                     </form>
                 </li>
                 <li><a href="panier.php"><img src="images/hunterbasket.png" alt="un panier commercial"></a></li>
-                <li><a href="inscription.php"><img src="images/hunterprofil.png" alt="une icône de profil"></a></li>
+                <li><a href="connexion.php"><img src="images/hunterprofil.png" alt="une icône de profil"></a></li>
             </ul>
 
         </header>
