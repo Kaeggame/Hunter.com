@@ -13,7 +13,9 @@
     </head>
 
     <body>
-
+<?php
+include("database.php");
+ ?>
         <!-- L'en-tête de la page -->
         <header class="mainblock">
 
@@ -41,7 +43,7 @@
 
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <p class="mainblock">toujours rien, <a href="produit.php">Boufon</a> !</p>
+            <p class="mainblock"><a href="produit.php">Liste de jeux</a> !</p>
         </section>
 
 

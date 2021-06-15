@@ -41,8 +41,18 @@
 
         <!-- Le contenu principal de la page -->
         <section class="mainblock">
-            <p class="mainblock">Bonjour, Boufon, ceci est notre seul produit... une vie (trop chère pour vous) !</p>
+          <?php
+            INCLUDE 'database.php';
+            global $db;
+
+            $q = $db->query("SELECT * FROM jeux");
+            while ($jeux = $q->fetch()) {
+              echo "Jeu : " . $jeux['nomj']  . "  |  ";
+              echo "Prix : " . $jeux['prix'] . " €" . "<br>";
+            }
+           ?>
         </section>
+
 
         <!-- Le footer...juste le footer -->
         <footer>
