@@ -32,8 +32,8 @@
 
 <!-- Le menu de navigations -->
 <nav>
-    <div class="PC"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">PC</a></div>
-    <div class="Sony"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Playstation</a></div>
-    <div class="Microsoft"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Xbox</a></div>
-    <div class="Nintendo"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Nintendo</a></div>
+    <div class="PC"><a href="produit.php" class="rick">PC</a></div>
+    <div class="Sony"><a href="produit.php" class="rick">Playstation</a></div>
+    <div class="Microsoft"><a href="produit.php" class="rick">Xbox</a></div>
+    <div class="Nintendo"><a href="produit.php" class="rick">Nintendo</a></div>
 </nav>
