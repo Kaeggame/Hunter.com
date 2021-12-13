@@ -14,14 +14,14 @@
 
     <body>
     <!-- Relie la database avec le site -->
-<?php
-include("./template/database.php");
- ?>
+    <?php
+    require_once __DIR__ . './templates/database.php';
+    ?>
 
     <!-- Lie le fichier header avec le site -->
-<?php
-include("./template/header.tpl.php");
-?>
+    <?php
+    require_once __DIR__ . './templates/header.tpl.php';
+    ?>
 
         <!-- Le menu de navigations -->
         <nav>
@@ -37,9 +37,9 @@ include("./template/header.tpl.php");
         </section>
 
     <!-- Lie le fichier footer avec le site -->
-<?php
-include("./template/footer.tpl.php");
-?>
+    <?php
+    require_once __DIR__ . './templates/footer.tpl.php';
+    ?>
 
     </body>
 </html>
