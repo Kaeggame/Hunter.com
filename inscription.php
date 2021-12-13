@@ -15,9 +15,10 @@ require_once __DIR__ . './templates/header.tpl.php';
             <!-- La Section inscription -->
             <div class="inscriBloc">
                 <form method="post">
-                  <input type="email" name="email" id="email" placeholder="Email" required><br>
-                  <input type="password" name="password" id="password" placeholder="Mot de passe" required><br>
-                  <input type="submit" name="formsend" id="formsend" value='OK'>
+                  <input class="test" type="nom" name="nom" id="nom" placeholder="Nom" required>
+                  <input class="test" type="email" name="email" id="email" placeholder="Email" required>
+                  <input class="test" type="password" name="password" id="password" placeholder="Mot de passe" required>
+                  <input class="test" type="submit" name="formsend" id="formsend" value='OK'>
                   </form>
             </div>
 <?php
@@ -30,9 +31,10 @@ require_once __DIR__ . './templates/database.php';
 
         global $db;
 
-        $q = $db->prepare("INSERT INTO users(email,password) VALUES(:email,:password)");
+        $q = $db->prepare("INSERT INTO users(nom,email,password) VALUES(:nom,:email,:password)");
         $q->execute([
-                'email' => $email
+                'nom' => $nom,
+                'email' => $email,
                 'password' => $password ]);
           }
 
