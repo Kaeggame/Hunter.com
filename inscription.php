@@ -48,19 +48,22 @@
 
             <!-- La Section inscription -->
             <div class="inscriBloc">
-                <h2 class="incriDescrip">Inscription</h2>
-                <input id="nom" type="text" name="nom" placeholder="Nom" />
-                <input id="prenom" type="text" name="prenom" placeholder="Prénom" />
-                <input id="mail" type="text" name="mail" placeholder="eMail" />
-                <input id="mdp" type="password" name="mdp" placeholder="Mot de passe" />
-                <input id="cmdp" type="password" name="cmdp" placeholder="Confirmer le mot de passe" />
-                <div class="inscriDDN">Date de naissance (JJ/MM/AAAA)</div>
-                <input id="ddnJour" type="number" name="jour" placeholder="Jour" />
-                <input id="ddnMois" type="number" name="mois" placeholder="Mois" />
-                <input id="ddnAnnee" type="number" name="annee" placeholder="Année" />
-                <input class="iscriValid" type="submit" name="valider" />
+                <form method="post">
+                  <input type="pseudo" name="pseudo" id="peseudo" placeholder="Pseudo" required><br>
+                  <input type="email" name="email" id="email" placeholder="Email" required><br>
+                  <input type="password" name="password" id="password" placeholder="Mot de passe" required><br>
+                  <input type="password" name="cpassword" id="cpassword" placeholder="Confirmer le mot de passe" required><br>
+                  <input type="submit" name="formsend" id="formsend" value='OK'>
+                  </form>
             </div>
 
+<?php
+    include 'database.php';
+    global $db;
+
+    $q = $db->prepare("INSERT INTO users(pseudo, email, password)" VALUES(:pseudo, :email, :password);
+
+ ?>
             <p>Si t'es déjà inscris cliques <a href="profile.php">ici</a></p>
         </section>
 
