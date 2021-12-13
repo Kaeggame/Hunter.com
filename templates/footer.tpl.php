@@ -28,6 +28,8 @@
             <p>Retours et remplacements</p>
             <p>Application Mobile</p>
             <p>Centre d'aide</p>
-        </div>
-    </div>
-</footer>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

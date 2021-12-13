@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Les liens CSS -->
+    <link rel="stylesheet" href="css/hunter.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/inscription.css">
+    <link rel="stylesheet" href="css/connexion.css">
+
+    <meta charset="UTF-8">
+    <title>Hunter.fr</title>
+</head>
+
+<body>
 <!-- L'en-tête de la page -->
 <header class="mainblock">
 
@@ -14,3 +29,11 @@
     </ul>
 
 </header>
+
+<!-- Le menu de navigations -->
+<nav>
+    <div class="PC"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">PC</a></div>
+    <div class="Sony"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Playstation</a></div>
+    <div class="Microsoft"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Xbox</a></div>
+    <div class="Nintendo"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" class="rick">Nintendo</a></div>
+</nav>
