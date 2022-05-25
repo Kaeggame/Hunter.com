@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mar. 18 mai 2021 à 15:13
+-- Généré le : mer. 25 mai 2022 à 16:55
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -24,6 +24,29 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `console`
+--
+
+DROP TABLE IF EXISTS `console`;
+CREATE TABLE IF NOT EXISTS `console` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nom` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `console`
+--
+
+INSERT INTO `console` (`id`, `nom`) VALUES
+(1, 'PC'),
+(2, 'Playstation'),
+(3, 'Xbox'),
+(4, 'Nintendo');
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `jeux`
 --
 
@@ -34,7 +57,7 @@ CREATE TABLE IF NOT EXISTS `jeux` (
   `prix` float DEFAULT NULL,
   `img` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`idj`)
-) ENGINE=MyISAM AUTO_INCREMENT=41 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `jeux`
@@ -94,7 +117,7 @@ CREATE TABLE IF NOT EXISTS `jeuxtag` (
   `idt` int(11) NOT NULL,
   KEY `idj` (`idj`),
   KEY `idt` (`idt`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `jeuxtag`
@@ -119,15 +142,113 @@ INSERT INTO `jeuxtag` (`idj`, `idt`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `jeux_console`
+--
+
+DROP TABLE IF EXISTS `jeux_console`;
+CREATE TABLE IF NOT EXISTS `jeux_console` (
+  `id_jeux` int(11) NOT NULL,
+  `id_console` int(11) NOT NULL,
+  UNIQUE KEY `id_jeux` (`id_jeux`,`id_console`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `jeux_console`
+--
+
+INSERT INTO `jeux_console` (`id_jeux`, `id_console`) VALUES
+(1, 1),
+(2, 1),
+(3, 4),
+(4, 1),
+(4, 2),
+(4, 3),
+(5, 1),
+(5, 4),
+(6, 1),
+(6, 2),
+(6, 3),
+(7, 1),
+(8, 1),
+(9, 1),
+(9, 2),
+(10, 1),
+(10, 2),
+(10, 3),
+(11, 1),
+(11, 2),
+(11, 3),
+(11, 4),
+(12, 1),
+(12, 2),
+(12, 3),
+(13, 1),
+(13, 3),
+(14, 1),
+(14, 2),
+(14, 3),
+(14, 4),
+(15, 1),
+(16, 1),
+(16, 2),
+(16, 3),
+(17, 1),
+(18, 2),
+(18, 3),
+(19, 3),
+(20, 1),
+(20, 2),
+(21, 1),
+(21, 3),
+(22, 1),
+(22, 4),
+(23, 1),
+(23, 2),
+(23, 4),
+(24, 1),
+(24, 4),
+(25, 1),
+(26, 1),
+(26, 2),
+(26, 3),
+(26, 4),
+(27, 1),
+(28, 1),
+(29, 1),
+(30, 2),
+(30, 3),
+(30, 4),
+(31, 1),
+(31, 4),
+(32, 1),
+(33, 1),
+(34, 1),
+(35, 2),
+(35, 3),
+(36, 1),
+(36, 4),
+(37, 1),
+(37, 4),
+(38, 1),
+(39, 1),
+(39, 3),
+(40, 1),
+(40, 2),
+(40, 3),
+(40, 4);
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `tag`
 --
 
 DROP TABLE IF EXISTS `tag`;
 CREATE TABLE IF NOT EXISTS `tag` (
-  `idt` int(11) NOT NULL,
+  `idt` int(11) NOT NULL AUTO_INCREMENT,
   `nomt` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`idt`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `tag`
@@ -170,14 +291,32 @@ INSERT INTO `tag` (`idt`, `nomt`) VALUES
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
-  `id` int(11) NOT NULL,
-  `nom` varchar(100) DEFAULT NULL,
-  `prenom` varchar(100) DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pseudo` varchar(25) NOT NULL,
   `email` varchar(255) DEFAULT NULL,
-  `daten` date DEFAULT NULL,
-  `mdp` varchar(100) DEFAULT NULL,
+  `password` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `users`
+--
+
+INSERT INTO `users` (`id`, `pseudo`, `email`, `password`) VALUES
+(1, 'Coinkkeu', 'Coink@COink.fr', '123'),
+(2, 'Boudibidibap', 'Badaboup@gmail.com', 'sqhfbsdihf'),
+(3, 'Hein', 'Labadakaba@fakate.fr', 'uierghiuyzsrfhiuedrguihyer');
+
+--
+-- Contraintes pour les tables déchargées
+--
+
+--
+-- Contraintes pour la table `jeuxtag`
+--
+ALTER TABLE `jeuxtag`
+  ADD CONSTRAINT `jeuxtag_ibfk_1` FOREIGN KEY (`idj`) REFERENCES `jeux` (`idj`),
+  ADD CONSTRAINT `jeuxtag_ibfk_2` FOREIGN KEY (`idt`) REFERENCES `tag` (`idt`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
