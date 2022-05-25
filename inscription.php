@@ -11,9 +11,9 @@ require_once __DIR__ . './templates/header.tpl.php';
 </section>
 
             <!-- La Section inscription -->
-            
+
             <div class="inscriBloc">
-                <form method="post">
+                <form method="post" action="./connexion.php">
                   <input class="test" type="pseudo" name="pseudo" id="pseudo" placeholder="Pseudo" required>
                   <input class="test" type="email" name="email" id="email" placeholder="Email" required>
                   <input class="test" type="password" name="password" id="password" placeholder="Mot de passe" required>

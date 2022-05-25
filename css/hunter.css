@@ -4,7 +4,7 @@
 body /* pour l'instant, juste l'image de fond */
 {
     margin: 0px;
-    background-color: darkolivegreen; /* à changer pour l'image */
+    background-color: white; /* à changer pour l'image */
 }
 
 section /* le contenu principal */

@@ -4,7 +4,7 @@
 .footer
 {
     display: flex;
-    background-color: rgba(158, 77, 215, 0.25);
+    background-color: gray;
 }
 
 .footer1
