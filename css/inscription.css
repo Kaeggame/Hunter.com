@@ -1,6 +1,6 @@
 /* CSS de l'inscription */
 
-.inscriBloc /* C'est le bloc qui contient tous les éléments */
+.inscriBloc /* C'est le bloc qui contient tous les éléments */ /* ! Obssolète ! */
 {
     border: 2px solid black;
     border-radius: 10px;
@@ -15,7 +15,7 @@
 }
 
 
-.incriDescrip /* Le texte avant les info à renter */
+.inscriDescrip /* Le texte avant les info à renter */
 {
     text-align: center;
     height: 20px;

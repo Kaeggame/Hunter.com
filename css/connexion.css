@@ -1,6 +1,6 @@
 /* CSS de la connexion*/
 
-.connexBloc /* C'est le bloc qui contient tous les éléments */
+.connexBloc /* C'est le bloc qui contient tous les éléments */ /* ! Obssolète ! */
 {
     border: 2px solid black;
     border-radius: 10px;
@@ -32,6 +32,7 @@
     height: 20px;
     width: 350px;
 }
+
 
 /* Partie Mot de passe */
 #mdp

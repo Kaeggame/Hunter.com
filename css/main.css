@@ -1,0 +1,35 @@
+/* .. */
+
+.formBlock /* .. */
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #397C7C;
+
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.inscriBloc /* .. */
+{
+    height: 300px;
+    width: 500px;
+}
+
+.connexBloc /* .. */
+{
+    height: 200px;
+    width: 400px;
+}
+
+.formDescrip /* Le texte avant les info à renter */
+{
+    text-align: center;
+    height: 20px;
+    width: 400px;
+    margin-top: 20px;
+}
