@@ -12,7 +12,7 @@
     text-align: center;
     margin: auto;
     margin-top: 5px;
-    font-family: "Rockwell",serif;
+    font-family: "Rockwell", "Roboto", sans-serif;
     color: white;
 }
 
@@ -21,7 +21,7 @@
     text-align: center;
     margin: auto;
     margin-top: 5px;
-    font-family: "Rockwell",serif;
+    font-family: "Rockwell", "Roboto", sans-serif;
     color: white;
 }
 
@@ -30,6 +30,6 @@
     text-align: center;
     margin: auto;
     margin-top: 5px;
-    font-family: "Rockwell",serif;
+    font-family: "Rockwell", "Roboto", sans-serif;
     color: white;
 }

@@ -57,6 +57,7 @@ nav /* le menu de navigations */
     border-radius: 0 0 24px 24px;
     text-align: center;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    font-family: "Roboto",sans-serif;
 }
 
 .Sony /* l'onglet Sony */
@@ -68,6 +69,7 @@ nav /* le menu de navigations */
     border-radius: 0 0 24px 24px;
     text-align: center;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    font-family: "Roboto",sans-serif;
 }
 
 .Microsoft /* l'onglet Microsoft */
@@ -79,6 +81,7 @@ nav /* le menu de navigations */
     border-radius: 0 0 24px 24px;
     text-align: center;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    font-family: "Roboto",sans-serif;
 }
 
 .PC /* l'onglet PC */
@@ -90,4 +93,5 @@ nav /* le menu de navigations */
     border-radius: 0 0 24px 24px;
     text-align: center;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    font-family: "Roboto",sans-serif;
 }
