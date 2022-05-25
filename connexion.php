@@ -1,6 +1,5 @@
 <!-- Page de Connexion -->
 
-
 <!-- Lie le fichier header avec le site -->
 <?php
 require_once __DIR__ . './templates/header.tpl.php';

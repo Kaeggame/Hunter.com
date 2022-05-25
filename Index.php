@@ -12,7 +12,11 @@
 
 <!-- Le contenu principal de la page -->
 <section class="mainblock">
-    <p class="mainblock"><a href="produit.php">Liste de jeux</a> !</p>
+  
+    <h2>Bienvenue sur Hunter.com !</h2>
+  
+      <p class="mainblock"><a href="produit.php">Liste de jeux</a> !</p>
+  
 </section>
 
     <!-- Lie le fichier footer avec le site -->
