@@ -1,0 +1,22 @@
+.card
+{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    width: 300px;
+    margin: 5px;
+}
+
+.card-body
+{
+    margin-left: 10px;
+}
+
+.pageProduits
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}

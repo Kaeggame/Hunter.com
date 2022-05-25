@@ -1,16 +1,16 @@
 <!-- Page d'inscription -->
 
-
-
     <!-- Lie le fichier header avec le site -->
+
 <?php
 require_once __DIR__ . './templates/header.tpl.php';
 ?>
 
     <!-- Relie la database avec le site -->
 
-        <!-- Le contenu principal de la page -->
-        <section class="mainblock">
+
+    <p>Si t'es déjà inscris cliques <a href="profile.php">ici</a></p>
+</section>
 
             <!-- La Section inscription -->
             <div class="inscriBloc">
@@ -21,6 +21,7 @@ require_once __DIR__ . './templates/header.tpl.php';
                   <input class="test" type="submit" name="formsend" id="formsend" value='OK'>
                   </form>
             </div>
+
 <?php
 
 require_once __DIR__ . './templates/database.php';
@@ -39,6 +40,7 @@ require_once __DIR__ . './templates/database.php';
           }
 
 ?>
+
             <p>Si t'es déjà inscris cliques <a href="profile.php">ici</a></p>
         </section>
 
@@ -47,4 +49,3 @@ require_once __DIR__ . './templates/database.php';
     <?php
     require_once __DIR__ . './templates/footer.tpl.php';
     ?>
-

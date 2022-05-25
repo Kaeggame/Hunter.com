@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/inscription.css">
     <link rel="stylesheet" href="css/connexion.css">
+    <link rel="stylesheet" href="css/produits.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <meta charset="UTF-8">
     <title>Hunter.fr</title>
@@ -32,8 +34,8 @@
 
 <!-- Le menu de navigations -->
 <nav>
-    <div class="PC"><a href="produit.php" class="rick">PC</a></div>
-    <div class="Sony"><a href="produit.php" class="rick">Playstation</a></div>
-    <div class="Microsoft"><a href="produit.php" class="rick">Xbox</a></div>
-    <div class="Nintendo"><a href="produit.php" class="rick">Nintendo</a></div>
+    <div class="PC"><a href="produit.php?console=1" class="rick">PC</a></div> <!-- -->
+    <div class="Sony"><a href="produit.php?console=2" class="rick">Playstation</a></div> <!-- -->
+    <div class="Microsoft"><a href="produit.php?console=3" class="rick">Xbox</a></div> <!-- -->
+    <div class="Nintendo"><a href="produit.php?console=4" class="rick">Nintendo</a></div> <!-- -->
 </nav>
