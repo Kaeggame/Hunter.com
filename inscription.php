@@ -8,11 +8,10 @@ require_once __DIR__ . './templates/header.tpl.php';
 
     <!-- Relie la database avec le site -->
 
-
-    <p>Si t'es déjà inscris cliques <a href="profile.php">ici</a></p>
 </section>
 
             <!-- La Section inscription -->
+            
             <div class="inscriBloc">
                 <form method="post">
                   <input class="test" type="pseudo" name="pseudo" id="pseudo" placeholder="Pseudo" required>
