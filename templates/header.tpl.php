@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,9 +25,9 @@
     <ul class="mainblock">
         <li><a href="Index.php"><img class="logo" src="images/hunterlogo.png"></a></li>
         <li>
-            <form method="GET">
-                <input class="recherche" type="search" name="q" placeholder="Recherche..."/>
-                <input class="envoyer" type="submit" name="Valider" />
+            <form action = "produit.php" method="GET">
+                <input class="recherche" type="search" name="terme" placeholder="Recherche..."/>
+                <input class="envoyer" type="submit" name="s" />
             </form>
         </li>
         <li><a href="panier.php"><img src="images/hunterbasket.png" alt="un panier commercial"></a></li>

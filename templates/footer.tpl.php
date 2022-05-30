@@ -1,4 +1,9 @@
 <!-- Le footer...juste le footer -->
+
+<?php
+//var_dump($_SESSION);
+?>
+
 <footer>
     <div class="footer">
 
