@@ -51,38 +51,14 @@ require_once __DIR__ . './templates/database.php';
             <div class="card-body">
                 <h5 class="card-title"> <?php echo $jeux['nomj'];?></h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#?idjeux=<?php echo $jeux['idj'];?>" class="btn btn-primary" name="ID"><?php echo "Acheter : " . $jeux['prix'] . " €"; ?></a>
+                <p class="btn btn-primary"><?php echo "Prix : " . $jeux['prix'] . " €"; ?></p>
+                <a href="panier.php?add=<?= $jeux['idj'] ?>">Acheter</a>
             </div>
         </div>
         <?php
     }
-
-    /*
-    $sessionPanier = [];
-
-    if(isset($_GET['idjeux']))
-    {
-        $idjeux = $_GET['idjeux'];
-        foreach ($sessionPanier as $idPanier)
-        {
-            if($idjeux == $idPanier)
-            {
-                exit;
-            }
-            else
-            {
-                array_push($sessionPanier, $idjeux);
-            }
-        }
-
-        $_SESSION['panier'] = $sessionPanier;
-    }
-
-    var_dump($sessionPanier);
-    */
-
-
 ?>
+
 </div>
 </section>
 
